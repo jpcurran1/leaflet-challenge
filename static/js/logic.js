@@ -64,7 +64,7 @@ var map = L.map("mapid",{
 });
 lightMap.addTo(map);
 
-   var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php";
+   var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
   
  
    var earthquakes = new L.LayerGroup();
